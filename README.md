@@ -3,6 +3,7 @@ Raspberry pi side of the bluebridge
 # Requirements
 PyBluez: You'll need to run the bluetooth service in compatibility mode as state here https://github.com/pybluez/pybluez/issues/161
 Moreover, the user running the bluebridge applications need read/write access to /var/run/sdp
+maybe disabling sap profile helps you
 
 # How to use it
 1. Run main.py, it will forward connection received through bluetooth to por 8022, so you'll have to change the port in the program or run the desired service on this port
